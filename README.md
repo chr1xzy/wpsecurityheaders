@@ -2,7 +2,8 @@
 
 Security headers help prevent your site from hacking. Copy and paste the below code into the wordpress theme functions.php. It will prevent cross scripting attacks, clickjacking, sniffing, etc. More details are listed on the link
 
-
+https://securityheaders.com then query your domain name.
+or
 https://securityheaders.com/?q=DOMAINNAME.COM&hide=on&followRedirects=on
 
 
