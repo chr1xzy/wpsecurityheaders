@@ -18,7 +18,7 @@ Appearance / Editor / [pick theme in dropdown - top right] / functions.php
 
 Copy and paste the following (can stick it at the bottom of the functions.php file)
 
-
+```
 // Security headers begin
 
 add_action('send_headers', function(){
@@ -38,7 +38,7 @@ header("Referrer-Policy: no-referrer-when-downgrade");
 }, 1);
 
 // Security headers end
-
+```
 
 You can then reload the security headers link above and see if the changes took.
 
